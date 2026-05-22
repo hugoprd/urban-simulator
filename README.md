@@ -20,9 +20,6 @@ Para garantir agilidade nesta etapa de validação, a arquitetura atual foi simp
 * **Frontend Visual:** Utiliza a biblioteca `matplotlib` com widgets nativos para gerar um mapa de calor 2D interativo, representando um grid urbano genérico.
 * **Gerenciamento de Ambiente:** Estruturado de forma moderna e isolada utilizando o `uv`.
 
-### Demonstração Interativa
-*(Arraste e solte o vídeo/GIF da sua gravação de tela mexendo nos sliders aqui)*
-
 ---
 
 ## O Futuro do Projeto (Escopo do TCC)
@@ -89,9 +86,6 @@ To ensure agility during this validation stage, the current architecture was int
 * **Analytical Backend:** Uses a *Random Forest Regressor* model (via `scikit-learn`) trained with tabular data for rapid inference.
 * **Visual Frontend:** Uses the `matplotlib` library with native widgets to generate an interactive 2D heatmap, representing a generic urban grid.
 * **Environment Management:** Structured in a modern and isolated way using `uv`.
-
-### Interactive Demonstration
-*(Drag and drop the video/GIF of your screen recording adjusting the sliders here)*
 
 ---
 
