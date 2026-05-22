@@ -1,5 +1,13 @@
+import model.model as ml_model
+from frontend.simulate import Simulation
+
+
 def main():
-    print("Hello from urban-simulator!")
+    modelo_treinado = ml_model.model()
+
+    simulation = Simulation(modelo_treinado)
+
+    simulation.plot_sim_city()
 
 
 if __name__ == "__main__":
