@@ -1,0 +1,16 @@
+{    
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true
+    },
+    
+    "black-formatter.args": [
+        "--config",
+        "./pyproject.toml"
+    ],
+    
+    "flake8.args": [
+        "--config",
+        "./.flake8"
+    ]
+}

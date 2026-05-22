@@ -10,3 +10,14 @@ dependencies = [
     "pandas>=3.0.3",
     "scikit-learn>=1.8.0",
 ]
+
+[dependency-groups]
+dev = [
+    "black>=26.5.1",
+    "flake8>=7.3.0",
+]
+
+[tool.black]
+line-length = 96
+target-version = ['py314']
+include = '\.pyi?$'
